@@ -884,8 +884,7 @@ int backupArrow[11][11];
     }
     
     if(arrow == 0){
-        //if (passed == 53) {
-            if (true) {
+        if (passed == 53) {
             self.gameOverAlert = [[UIAlertView alloc] init];
             self.gameOverAlert.delegate = self;
             self.gameOverAlert.title = nil;
