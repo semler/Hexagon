@@ -84,4 +84,6 @@
 @property (weak, nonatomic) IBOutlet OBShapedButton *button98;
 @property (weak, nonatomic) IBOutlet OBShapedButton *button99;
 
+-(void)animation: (UIImageView *) imageView;
+
 @end

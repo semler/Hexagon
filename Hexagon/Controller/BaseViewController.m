@@ -105,14 +105,6 @@ int backupArrow[11][11];
     [super viewWillAppear:animated];
     
     [self backup];
-    
-    [self animation:self.button44.imageView];
-    [self animation:self.button54.imageView];
-    [self animation:self.button45.imageView];
-    [self animation:self.button56.imageView];
-    [self animation:self.button65.imageView];
-    [self animation:self.button66.imageView];
-
 }
 
 - (void)viewDidLoad {

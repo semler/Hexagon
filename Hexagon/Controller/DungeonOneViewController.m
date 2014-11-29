@@ -333,6 +333,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self animation:self.button44.imageView];
+    [self animation:self.button54.imageView];
+    [self animation:self.button45.imageView];
+    [self animation:self.button56.imageView];
+    [self animation:self.button65.imageView];
+    [self animation:self.button66.imageView];
 }
 
 - (BOOL) prefersStatusBarHidden
